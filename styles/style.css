@@ -59,6 +59,9 @@
     font-size: 1.12rem;
     font-weight: 600;
 }
+.primary_color{
+    color: rgb(255, 255, 255);
+}
 /* header start  */
 header{
     height: 672px;
@@ -129,6 +132,7 @@ header{
     Font-size: 4.9rem;
 }
 .banner_desc{
+    width: 488px;
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 1rem;
@@ -155,5 +159,29 @@ header{
 .banner_img img{
     width: 100%;
     height: 100%;
+}
+.workout{
+    width: 181px;
+    height: 92px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    margin-left: 210px;
+    margin-top: -482px;
+    text-align: center;
+    padding: 10px 20px 0;
+}
+.w_number{
+    font-family: Inter;
+    font-size: 2.31rem;
+    font-weight: 900;
+}
+.w_text{
+    font-family: Inter;
+    font-size: 0.81rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
 }
 /* banner end */
