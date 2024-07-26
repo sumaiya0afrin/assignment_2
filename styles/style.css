@@ -1,0 +1,159 @@
+/* font-family: "Miama", sans-serif; */
+@font-face {
+    font-family: Miama;
+    src: url(../fonts/miama/Miama.ttf);
+}
+
+/* font-family: "Inter", sans-serif; */
+@font-face {
+    font-family: Inter-Black;
+    src: url(../fonts/inter/Inter-Black.ttf);
+}
+@font-face {
+    font-family: Inter-Bold;
+    src: url(../fonts/inter/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: Inter-ExtraBold;
+    src: url(../fonts/inter/Inter-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Inter-ExtraLight;
+    src: url(../fonts/inter/Inter-ExtraLight.ttf);
+}
+@font-face {
+    font-family: Inter-Light;
+    src: url(../fonts/inter/Inter-Light.ttf);
+}
+@font-face {
+    font-family: Inter-Medium;
+    src: url(../fonts/inter/Inter-Medium.ttf);
+}
+@font-face {
+    font-family: Inter-Regular;
+    src: url(../fonts/inter/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: Inter-SemiBold;
+    src: url(../fonts/inter/Inter-SemiBold.ttf);
+}
+@font-face {
+    font-family: Inter-Thin;
+    src: url(../fonts/inter/Inter-Thin.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* shared styles  */
+.display_flex{
+    display: flex;
+}
+.btn_primary{
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    background-color: rgb(230, 83, 60);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.12rem;
+    font-weight: 600;
+}
+/* header start  */
+header{
+    height: 672px;
+    padding-top: 40px;
+    /* background: linear-gradient(180deg, rgb(17, 17, 17),rgba(119, 119, 119, 0)); */
+    background-color: black;
+}
+.logo{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size:  2.25rem;
+    font-weight: 800;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.nav_list{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 4px;
+}
+.nav_list li{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav_list li:last-child{
+    margin-right: 0;
+}
+.nav_list li a{
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 1.12rem;
+    font-weight: 400;
+    padding: 8px 20px;
+    color: rgb(255, 255, 255);
+    transition: 0.8s;
+    background-color: transparent;
+}
+
+.nav_list a:hover,
+.nav_list a.active{
+    border-radius: 46px;
+    background-color: rgb(230, 83, 60);
+}
+/* header end  */
+
+/* banner start  */
+.banner{
+    justify-content: space-between;
+    align-items: center;
+}
+.banner_text{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 4.8rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+.banner_text span{
+    font-family: Miama;
+    Font-weight: 400;
+    Font-size: 4.9rem;
+}
+.banner_desc{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 26px 0;
+}
+.download_btn{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    background: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.12rem;
+    font-weight: 600;
+    margin-left: 14px;
+    cursor: pointer;
+}
+.banner_img{
+    width: 328px;
+    height: 618px;
+}
+.banner_img img{
+    width: 100%;
+    height: 100%;
+}
+/* banner end */
