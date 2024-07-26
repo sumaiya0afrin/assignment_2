@@ -82,6 +82,7 @@ header{
 
 .navbar, .banner{
     max-width: 1440px;
+    width: 996px;
     margin: 0 auto;
 }
 .nav_list{
