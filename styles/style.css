@@ -299,6 +299,56 @@ header{
 }
 /* run miles end  */
 
+/* calculator start  */
+.calculator{
+
+    width: auto;
+}
+.chart{
+    width: 50%;
+}
+.cal_text{
+    font-size: 26px;
+}
+.form{
+    width: 50%;
+}
+.cal_container{
+    background: rgb(34, 34, 34);
+    justify-content: center;
+    margin: 46px 0 48px;
+    padding: 46px 178px;
+}
+table{
+    margin-top: 48px;
+}
+table, 
+th,
+td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+}
+form input, select{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 12px 37px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 7px;
+    margin-right: 3px;
+}
+form > select{
+    width: 49%;
+}
+.factor{
+    width: 100%;
+    margin-bottom: 31px;
+}
+
+/* calculator end */
+
 /* team start  */
 .team_container{
     display: grid;
