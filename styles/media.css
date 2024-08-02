@@ -1,0 +1,128 @@
+@media screen and (max-width: 576px) {
+    header, .habit{
+        height: auto;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .habit_container ,
+    .team_container,
+    .footer_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .run_miles{
+        display: grid;
+    }
+    .miles_content button{
+        width: 100%;
+    }
+    .mile_img {
+        width: 415px;
+    }
+    .calculator {
+        width: 996px;
+    }
+    .cal_container{
+        grid-template-columns: repeat(1, 1fr);
+        height: auto;
+        justify-items: start;
+        padding: 30px;
+    }
+    .form{
+        width: 100%;
+        margin-top: 55px;
+    }
+    .form_container {
+        gap: 10px;
+    }
+    form input, select {
+        padding: 20px 269px 20px 25px;
+    }
+    .team_container{
+        margin: 0 30px;
+        gap: 60px;
+        padding: 60px;
+    }
+    .team_gallery {
+        width: 793px;
+        height: 767px;
+    }
+    .team_gallery_1, .team_gallery_4{
+        display: none;
+    }
+    .team_gallery_2{
+        grid-row: 1 / 2;
+    }
+    .team_gallery_3{
+        grid-row: 3 / 4;
+    }
+    .team_gallery_5{
+        grid-row: 2 / 3;
+    }
+    .team_gallery_6{
+        grid-row: 4 / 5;
+    }
+
+    footer{
+        width: fit-content;
+    }
+    .footer_container {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: start;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    header, .habit{
+        height: auto;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .habit_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .calculator {
+        width: 996px;
+    }
+    .calculator_content{
+        align-items: start;
+        padding-left: 30px;
+    }
+    .calculator h2 {
+        margin-left: 0;
+    }
+    .cal_container{
+        grid-template-columns: repeat(1, 1fr);
+        height: auto;
+        justify-items: start;
+        padding: 30px;
+    }
+    .form{
+        width: 100%;
+        margin-top: 55px;
+    }
+    form input, select {
+        padding: 20px 269px 20px 25px;
+    }
+    .form_container {
+        gap: 10px;
+    }
+    .team_container{
+        margin: 0 30px;
+    }
+    .team_gallery {
+        width: 283px;
+    }
+    footer{
+        width: fit-content;
+    }
+    .footer_content{
+        grid-column: span 2;
+    }
+    .footer_container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: start;
+    }
+}
